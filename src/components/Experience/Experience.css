@@ -1,0 +1,116 @@
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40vh;
+  margin-bottom: 7rem;
+  /* darkmode */
+  color: var(--black);
+}
+.achievement{
+    display: flex;
+    margin-top: 9rem;
+    flex-direction: column;    
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-top-right-radius: 14%;
+    border-top-left-radius: 14%;
+    border-top: none;
+}
+
+.circle {
+    width: 7rem;
+    height: 7rem;
+    background: white;
+    border-radius: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.circle::before {
+    border-radius: 50%;
+    content: '';
+    background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    z-index:-1;
+    box-shadow: var(--boxShadow);
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 5px;
+  }
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .html>p{
+    margin-top: -3px;
+  }
+  .css>p{
+    margin-top: -3px;
+  }
+  .js>p{
+    margin-top: -3px;
+  }
+  .react>p{
+    margin-top: -3px;
+  }
+  .redux>p{
+    margin-top: -3px;
+  }
+  .express>p{
+    margin-top: -3px;
+  }
+  .node>p{
+    margin-top: -3px;
+  }
+  .mongo>p{
+    margin-top: -3px;
+  }
+  .micro>p{
+    margin-top: -3px;
+  }
+  .vs>p{
+    margin-top: -3px;
+  }
+  .github>p{
+    margin-top: -3px;
+  }
+  .html {width: 90%; height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: #04AA6D;}
+.css {width: 80%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: #2196F3;}
+.js {width: 65%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: #f44336;}
+.react {width: 70%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: #808080;}
+.redux {width: 60%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: #808080;}
+.express {width: 50%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: 	#800080}
+.node {width: 60%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: #2196F3;}
+.micro {width: 80%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: 	#FF8C00;}
+.mongo {width: 60%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: #2196F3;}
+
+.vs {width: 50%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: 		#FF4500;}
+.github {width: 70%;height: 20px; text-align: center; display: flex; justify-content: space-between; background-color: 	#FF8C00;}
+
+.achievement span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .experience{
+        transform: scale(0.7);
+    }
+}

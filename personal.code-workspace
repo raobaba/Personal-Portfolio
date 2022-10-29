@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../template/Personal-Portfolio-React/node_modules"
+		},
+		{
+			"path": "../template/Personal-Portfolio-React/public"
+		},
+		{
+			"path": "../template/Personal-Portfolio-React/src"
+		}
+	],
+	"settings": {}
+}
